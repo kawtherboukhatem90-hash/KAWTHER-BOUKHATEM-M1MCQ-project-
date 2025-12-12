@@ -25,5 +25,12 @@ print(df)
  #opèrations sur les tableaux :
 print("****************opèrations***********")
 #1) sèlectionner la colonne "longueur"
+
+
+
+
+
+
+
 longueur = df ["longueur"]
 print(longueur)
