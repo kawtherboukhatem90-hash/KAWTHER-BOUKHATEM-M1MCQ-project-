@@ -54,3 +54,10 @@ def catégorie_gc(pct):
         
 # Application de la fonction sur la colonne pourcentage_GC
 df["catégorie GC"] = df["pourcentage_GC"].apply(catégorie_gc)
+
+
+# Étape 6 : Ajouter une colonne avec le nombre de 'G' dans chaque séquence
+df["Nb_G"] = df["Séquence"].apply(lambda seq: seq.count("G"))
+
+# Afficher le tableau mis à jour
+print(df)ط
