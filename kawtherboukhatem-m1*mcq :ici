@@ -36,3 +36,18 @@ print(longueur)
 
 longueur = df ["longueur"]
 print(longueur)
+
+
+#Etape 5: Ajouté une colonne "catégorie GC " :
+
+#Fonction qui retourne la catégorie GC
+def catégorie_gc(pct):
+    if pct > 55:
+        return "Riche"
+    elif 45 <= pct <= 55:
+        return "Moyen"
+    else:
+        return "faible"
+        
+# Application de la fonction sur la colonne pourcentage_GC
+df["catégorie GC"] = df["pourcentage_GC"].apply(catégorie_gc)
