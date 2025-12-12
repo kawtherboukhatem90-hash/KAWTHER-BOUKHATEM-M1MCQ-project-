@@ -34,8 +34,6 @@ print(longueur)
 
 
 
-longueur = df ["longueur"]
-print(longueur)
 
 
 #Etape 5: Ajouté une colonne "catégorie GC " :
