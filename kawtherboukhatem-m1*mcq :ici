@@ -36,6 +36,13 @@ print(longueur)
 
 
 
+
+
+
+
+
+
+
 #Etape 5: Ajouté une colonne "catégorie GC " :
 
 #Fonction qui retourne la catégorie GC
