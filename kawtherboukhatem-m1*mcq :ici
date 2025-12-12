@@ -61,3 +61,18 @@ df["Nb_G"] = df["Séquence"].apply(lambda seq: seq.count("G"))
 
 # Afficher le tableau mis à jour
 print(df)
+
+
+#Etape 7:Calcule de l'ecart-type
+
+ecart_gc=df["pourcentage_GC"].std()
+ecart_long=df["longueur"].std()
+
+print("\nEcart_type du pourcentage_GC:",ecart_gc)
+print("ecart_type du la longueur:",ecart_long)
+
+
+#Etape 8:Sauvegard CSV
+
+df.to_csv("resultat_final.csv",index=False)
+print("\nLe fichier Csv 'resultat_final.csv' a été généré")
