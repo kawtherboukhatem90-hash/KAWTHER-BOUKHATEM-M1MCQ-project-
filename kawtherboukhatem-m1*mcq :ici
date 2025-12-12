@@ -41,18 +41,6 @@ gc_moyenne = round(df["pourcentage_GC"].mean(), 3)
 print("La moyenne du pourcentage_Gc est :",gc_moyenne)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 #Etape 5: Ajouté une colonne "catégorie GC " :
 
 #Fonction qui retourne la catégorie GC
