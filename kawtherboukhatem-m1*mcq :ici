@@ -60,4 +60,4 @@ df["catégorie GC"] = df["pourcentage_GC"].apply(catégorie_gc)
 df["Nb_G"] = df["Séquence"].apply(lambda seq: seq.count("G"))
 
 # Afficher le tableau mis à jour
-print(df)ط
+print(df)
