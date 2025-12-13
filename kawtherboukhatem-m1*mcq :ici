@@ -57,6 +57,15 @@ df["catégorie GC"] = df["pourcentage_GC"].apply(catégorie_gc)
 
 
 
+#question06:nombre de g dans chaque sèequence 
+
+def compter_G (sequence):
+    return sequence.count("G")
+    
+df["nb_G"] = df ["sèquences"].apply(compter_G)
+print (df)
+
+
 
 
 
